@@ -9,15 +9,12 @@ In the project directory, run:
 
 This installs all the npm packages
 
-In the project directory, you can run to start the application:
+Then run the following command to start the application:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-
 
 ### `npm run build`
 
