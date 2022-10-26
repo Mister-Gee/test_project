@@ -1,0 +1,78 @@
+.btn{
+    font-weight: bold !important;
+}
+
+.btn-primary{
+    background-color: aqua !important;
+    border: none !important;
+}
+
+.btn-primary:hover{
+    background-color: aqua !important;
+}
+
+.wrapper{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container{
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid aqua;
+    margin-bottom: 25px;
+}
+
+.social-btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.social-btn-group button{
+    width: 40%;
+}
+
+.fb-btn{
+    background-color: #4267B2 !important;
+}
+
+.google-btn{
+    background-color: #DB4437 !important;
+}
+
+.auth-form input{
+    margin-bottom: 25px;
+}
+
+.auth-form button{
+    width: 100%;
+}
+
+/***************Responsiveness****************/
+
+@media (max-width: 576px) {
+    .auth-container{
+        width: 80%;
+    }
+}

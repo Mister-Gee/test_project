@@ -1,0 +1,5 @@
+{
+    "Api": {
+      "baseUrl": "https://httpbin.org/"
+    }
+  }
