@@ -3,8 +3,13 @@
 A Basic React Project 
 
 ##  Scripts
+In the project directory, run:
 
-In the project directory, you can run:
+### `npm install`
+
+This installs all the npm packages
+
+In the project directory, you can run to start the application:
 
 ### `npm start`
 
